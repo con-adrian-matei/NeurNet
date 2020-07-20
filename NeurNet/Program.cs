@@ -12,7 +12,7 @@ namespace NeurNet
     {
         static void Main(string[] args)
         {
-            /*string trainImgPath = @"C:\Users\Matei\source\repos\NeurNet\NeurNet\train-images.idx3-ubyte";
+            string trainImgPath = @"C:\Users\Matei\source\repos\NeurNet\NeurNet\train-images.idx3-ubyte";
             string trainTagPath = @"C:\Users\Matei\source\repos\NeurNet\NeurNet\train-labels.idx1-ubyte";
 
             FileInfo trainImgs = new FileInfo(trainImgPath);
@@ -46,9 +46,6 @@ namespace NeurNet
             mnist.RunNetwork();
             mnist.DisplayOutput();
             Console.WriteLine(mnist.ComputeCost(label));
-            */
-
-            Console.WriteLine("Palut");
         }
 
         static int reverseBits (int arg)
