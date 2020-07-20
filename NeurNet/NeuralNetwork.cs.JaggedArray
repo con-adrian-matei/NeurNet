@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace NeurNet
+{
+    public class NeuralNetwork
+    {
+        public int[] noOfNeurons;
+        public double[][] neurons;
+        public double[][][] weights;
+        public double[][] biases;
+        
+
+        public NeuralNetwork()
+        {
+            
+        }
+    }
+
+}
