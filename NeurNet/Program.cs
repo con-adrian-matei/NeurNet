@@ -48,7 +48,7 @@ namespace NeurNet
             Console.WriteLine(mnist.ComputeCost(label));
             */
 
-            Console.WriteLine("Salut");
+            Console.WriteLine("Palut");
         }
 
         static int reverseBits (int arg)
